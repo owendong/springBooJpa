@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/dbf
+    username: root
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update  #更新或者创建数据表结构
+    show-sql: true   # 控制台显示sql语句
+
